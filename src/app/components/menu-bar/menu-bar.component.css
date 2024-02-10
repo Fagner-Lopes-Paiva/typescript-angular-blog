@@ -1,0 +1,20 @@
+.conteiner_menu_bar > ul > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.conteiner_menu_bar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px;
+}
+.conteiner_menu_bar {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.conteiner_menu_bar > ul > li {
+    list-style: none;
+    text-decoration: none;
+}

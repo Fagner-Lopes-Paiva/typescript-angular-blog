@@ -1,0 +1,27 @@
+.conteiner_small_card {
+    display: flex;
+    width: 550px;
+}
+.conteiner_small_card > img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.titulo_paragrafo {
+    color: white;
+    margin-top: 0;
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+}
+.titulo_paragrafo > h1 {
+    font-size: 25px;
+}
+.titulo_paragrafo > p {
+    color: grey;
+    margin-top: 10px;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
