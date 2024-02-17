@@ -1,0 +1,52 @@
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .conteiner_big_card {
+        width: 300px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .big_card_photo > img {
+        height: 250px;
+        width: 300px;
+    }
+    .big_card_title > h1 > a {
+        color: white;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .big_card_description > p {
+        color: grey;
+        margin-top: 10px;
+        font-size: 10px;
+        text-align: justify;
+    }
+}
+     /* Para telas entre 768px e 1024px (tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .conteiner_big_card {
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-right: 50px;
+        
+    }
+    
+    .big_card_photo > img {
+        height: 350px;
+        width: 500px;
+    }
+    .big_card_title > h1 > a {
+        color: white;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .big_card_description > p {
+        color: grey;
+        margin-top: 10px;
+    }
+}

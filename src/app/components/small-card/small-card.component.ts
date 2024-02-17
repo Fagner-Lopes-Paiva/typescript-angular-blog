@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.css'
+  styleUrls: ['./small-card.component.css', './small-card.responsivel.component.css']
 })
 export class SmallCardComponent {
   fotoUm: string = '././assets/imagem_placeholder.jpg';
